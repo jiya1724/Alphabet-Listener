@@ -1,0 +1,197 @@
+body{
+    text-align: center;
+    background-color: white;
+    background-image: url(images/star.png);
+    
+    
+}
+
+#title{
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation: blinker 0.5s linear 3;
+    color: aliceblue;
+    text-shadow: 7px 7px 25px #DA0463;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+.set{
+    margin: 5% auto;
+   
+    
+    position: relative;
+}
+.letter{
+    
+    outline: none;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive; 
+    line-height: 1;
+    font-weight: 900;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width:130px;
+    height: 130px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    color: white;
+    
+}
+
+.a{
+    border: 10px solid #ED2B2A;
+    background-color: #ED2B2A;
+    
+}
+.b{
+    border: 10px solid #F9D949;
+    background-color: #F9D949;
+    
+}
+.c{
+    border: 10px solid #27E1C1;
+    background-color: #27E1C1;
+    
+
+}
+.d{
+    border: 10px solid #E11299;
+    background-color: #E11299;
+    
+
+}
+.e{
+    border: 10px solid #116D6E;
+    background-color: #116D6E;
+    
+
+}
+.f{
+    border: 10px solid #F99417;
+    background-color: #F99417;
+    
+}
+.g{
+    border:10px solid #F9D949;
+    background-color: #F9D949;
+    
+}
+.h{
+    border: 10px solid #E11299;
+    background-color: #E11299;
+    
+
+}
+
+.i{
+    border: 10px solid #116D6E;
+    background-color: #116D6E;
+    
+}
+.j{
+    border: 10px solid #AA77FF;
+    background-color: #AA77FF;
+    
+}
+.k{
+    border: 10px solid #ED2B2A;
+    background-color:#ED2B2A ;
+    
+}
+.l{
+    border: 10px solid #F9D949;
+    background-color: #F9D949 ;
+    
+    
+}
+.m{
+    border: 10px solid #27E1C1;
+    background-color: #27E1C1;
+   
+}
+.n{
+    border: 10px solid #E11299;
+    background-color: #E11299;
+    
+}
+.o{
+    border: 10px solid #2F58CD;
+    background-color: #2F58CD;
+    
+}
+.p{
+    background-color: #F99417;
+    border: 10px solid #F99417;
+    
+}
+.q{
+    background-color: #F9D949;
+    border: 10px solid #F9D949;
+}
+.r{
+    background-color: #116D6E;
+    border: 10px solid #116D6E;
+}
+.s{
+    background-color: #2F58CD;
+    border: 10px solid #2F58CD;
+}
+.t{
+    background-color: #AA77FF;
+    border: 10px solid #AA77FF;
+}
+.u{
+    background-color: #DA0463;
+    border: 10px solid #DA0463;
+}
+.v{
+    background-color: #116D6E;
+    border: 10px solid #116D6E;
+}
+.w{
+    background-color: #27E1C1;
+    border:10px solid #27E1C1;
+
+}
+.x{
+    background-color: #E11299;
+    border:10px solid #E11299;
+
+}
+.y{
+    background-color: #2F58CD;
+    border:10px solid #2F58CD;
+
+}
+.z{
+    background-color: #F99417;
+    border:10px solid #F99417;
+
+}
+ button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-image: url(images/star.png);
+ }
+ .pressed{
+    opacity: 0.5;
+ }
+ /* .l1 {
+    animation: blinker 1s ease-in-out infinite alternate;  
+  }
+  @keyframes blinker { to { opacity: 0; } }
+  
+  .l2 {
+    animation: blinker2 1s ease-in-out infinite alternate;  
+  }
+  @keyframes blinker2 { to { opacity: 0; } }
+  
+  .l3 {
+    animation: blinker3 1s ease-in-out infinite alternate;  
+  }
+  @keyframes blinker3 { to { opacity: 0; } } */
